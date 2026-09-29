@@ -3,7 +3,7 @@
 **REVA University | School of Computer Science and Engineering**
 **Program:** B.Sc. (BSTCs)
 **Semester:** V
-**Subject:** Java Programming
+**Subject:** OOP Java
 **Domain:** Library Management System
 
 **Submitted by:** M Drithi Reddy
