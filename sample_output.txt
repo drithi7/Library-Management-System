@@ -1,0 +1,321 @@
+============================================================
+      REVA UNIVERSITY CENTRAL LIBRARY  (REVA-LIB)
+           Library Management System v1.0
+============================================================
+Librarian on duty : Shobha Rao (MORNING shift)
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 1
+-----------------------------------------------------------------------------------------------
+ID    TITLE                          AUTHOR               GENRE        RACK   PRICE        STATUS
+-----------------------------------------------------------------------------------------------
+1     Java The Complete Reference    Herbert Schildt      TECHNOLOGY   A      Rs.799.00    Available
+2     Let Us C                       Yashavant Kanetkar   TECHNOLOGY   A      Rs.450.50    Available
+3     Wings of Fire                  A P J Abdul Kalam    HISTORY      B      Rs.350.00    Available
+4     The Alchemist                  Paulo Coelho         FICTION      C      Rs.299.00    Available
+5     A Brief History of Time        Stephen Hawking      SCIENCE      B      Rs.599.75    Available
+6     Tinkle Digest                  Anant Pai            COMICS       D      Rs.120.00    Available
+-----------------------------------------------------------------------------------------------
+Total books shown : 6
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 3
+
+Search by : 1) Book ID   2) Title   3) Genre
+Your choice : 2
+Enter title (full or part) : java
+Book found :
+1     Java The Complete Reference    Herbert Schildt      TECHNOLOGY   A      Rs.799.00    Available
+Author surname : Schildt | Security deposit : Rs.79
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 3
+
+Search by : 1) Book ID   2) Title   3) Genre
+Your choice : 3
+Genre : 1) FICTION 2) SCIENCE 3) TECHNOLOGY 4) HISTORY 5) COMICS
+Your choice : 3
+-----------------------------------------------------------------------------------------------
+ID    TITLE                          AUTHOR               GENRE        RACK   PRICE        STATUS
+-----------------------------------------------------------------------------------------------
+1     Java The Complete Reference    Herbert Schildt      TECHNOLOGY   A      Rs.799.00    Available
+2     Let Us C                       Yashavant Kanetkar   TECHNOLOGY   A      Rs.450.50    Available
+Books found in TECHNOLOGY : 2
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 6
+Member ID : 1001
+Book ID   : 1
+Issued "Java The Complete Reference" to Drithi Reddy. Security deposit collected: Rs.79
+Books with Drithi now : 1 (max 3, renewals allowed 2)
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 6
+Member ID : 1002
+Book ID   : 1
+Sorry, "Java The Complete Reference" is already issued to someone.
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 2
+-----------------------------------------------------------------------------------------------
+ID    TITLE                          AUTHOR               GENRE        RACK   PRICE        STATUS
+-----------------------------------------------------------------------------------------------
+2     Let Us C                       Yashavant Kanetkar   TECHNOLOGY   A      Rs.450.50    Available
+3     Wings of Fire                  A P J Abdul Kalam    HISTORY      B      Rs.350.00    Available
+4     The Alchemist                  Paulo Coelho         FICTION      C      Rs.299.00    Available
+5     A Brief History of Time        Stephen Hawking      SCIENCE      B      Rs.599.75    Available
+6     Tinkle Digest                  Anant Pai            COMICS       D      Rs.120.00    Available
+-----------------------------------------------------------------------------------------------
+Total books shown : 5
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 7
+Member ID        : 1001
+Book ID          : 1
+Days late (0 if on time) : 5
+Returned "Java The Complete Reference" from Drithi Reddy.
+Days late: 5 | Grace days: 2 | Fine payable: Rs.10
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 5
+Member ID    : 1004
+Full name    : Ananya Shetty
+Phone number : 9876543210
+Membership type : 1) STUDENT  2) TEACHER  3) GUEST
+Your choice  : 1
+Welcome Ananya! Your membership is active.
+|| MEMBER    ID:1004 Ananya Shetty          ||
+MEMBER | ID: 1004 | Name: Ananya Shetty | Phone: 9876543210 | Type: STUDENT | Books held: 0/3 | Fine: Rs.0.00
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 4
+Book ID      : 7
+Title        : Head First Java
+Author       : Kathy Sierra
+Genre : 1) FICTION 2) SCIENCE 3) TECHNOLOGY 4) HISTORY 5) COMICS
+Your choice : 3
+Price (Rs.)  : 650.00
+Rack (A-D)   : A
+Book added successfully.
+7     Head First Java                Kathy Sierra         TECHNOLOGY   A      Rs.650.00    Available
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 9
+-----------------------------------------------------------------------------------------------
+|| LIBRARIAN ID:101  Shobha Rao             ||
+   LIBRARIAN | ID: 101 | Name: Shobha Rao | Phone: 9845012345 | Shift: MORNING | Experience: 12 yrs
+|| MEMBER    ID:1001 Drithi Reddy           ||
+   MEMBER | ID: 1001 | Name: Drithi Reddy | Phone: 9900112233 | Type: STUDENT | Books held: 0/3 | Fine: Rs.10.00
+|| MEMBER    ID:1002 Rahul Nair             ||
+   MEMBER | ID: 1002 | Name: Rahul Nair | Phone: 9812345678 | Type: STUDENT | Books held: 0/3 | Fine: Rs.0.00
+|| MEMBER    ID:1003 Prof Anand Kumar       ||
+   MEMBER | ID: 1003 | Name: Prof Anand Kumar | Phone: 9845567890 | Type: TEACHER | Books held: 0/5 | Fine: Rs.0.00
+|| MEMBER    ID:1004 Ananya Shetty          ||
+   MEMBER | ID: 1004 | Name: Ananya Shetty | Phone: 9876543210 | Type: STUDENT | Books held: 0/3 | Fine: Rs.0.00
+-----------------------------------------------------------------------------------------------
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 10
+Books are now sorted alphabetically by title.
+-----------------------------------------------------------------------------------------------
+ID    TITLE                          AUTHOR               GENRE        RACK   PRICE        STATUS
+-----------------------------------------------------------------------------------------------
+5     A Brief History of Time        Stephen Hawking      SCIENCE      B      Rs.599.75    Available
+7     Head First Java                Kathy Sierra         TECHNOLOGY   A      Rs.650.00    Available
+1     Java The Complete Reference    Herbert Schildt      TECHNOLOGY   A      Rs.799.00    Available
+2     Let Us C                       Yashavant Kanetkar   TECHNOLOGY   A      Rs.450.50    Available
+4     The Alchemist                  Paulo Coelho         FICTION      C      Rs.299.00    Available
+6     Tinkle Digest                  Anant Pai            COMICS       D      Rs.120.00    Available
+3     Wings of Fire                  A P J Abdul Kalam    HISTORY      B      Rs.350.00    Available
+-----------------------------------------------------------------------------------------------
+Total books shown : 7
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 11
+==================================================
+            LIBRARY STATISTICS
+==================================================
+Library code            : REVA-LIB
+Book objects created    : 7
+Members registered      : 4
+Librarians              : 1
+Total persons (parent)  : 5
+Books currently issued  : 0
+Books on the shelf      : 7
+Total stock value       : Rs.3268.25
+Average price of a book : Rs.466.89
+==================================================
+
+---------------- MAIN MENU ----------------
+ 1. Show all books
+ 2. Show only available books
+ 3. Search a book
+ 4. Add a new book
+ 5. Register a new member
+ 6. Issue a book
+ 7. Return a book
+ 8. Show all members
+ 9. Show everyone (librarian + members)
+10. Sort books by title
+11. Library statistics
+ 0. Exit
+-------------------------------------------
+Enter your choice : 0
+
+Thank you for using the Library Management System. Bye!
